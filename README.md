@@ -11,4 +11,4 @@ Run 'run_expts_MNIST.py' to obtain accuracy and confidence values (as defined in
 2. Rot: MNIST digits rotated by 60 degrees. 
 3. OOD: Images of letters (not digits). 
 
-Results are saved for different sizes of training datasets (uncertainty quantification is harder for smaller dataset sizes)
+Results are saved for different sizes of training datasets (PNCA provides better uncertainty quantification than baselines, and its performance is unaffected by dataset size while uncertainty quantification of baselines is worse for smaller datasets)
